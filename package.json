@@ -1,0 +1,37 @@
+{
+  "name": "linear-inspired-website",
+  "version": "1.0.0",
+  "description": "A modern website inspired by Linear.app's design system",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server . -p 3000 -o",
+    "dev": "npx live-server --port=3000 --open=/index.html",
+    "build": "echo 'No build process needed for static site'",
+    "analyze": "node linear-theme-analyzer.js"
+  },
+  "keywords": [
+    "linear",
+    "design-system",
+    "modern-ui",
+    "website",
+    "css",
+    "javascript",
+    "responsive"
+  ],
+  "author": "Linear Design System",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "live-server": "^1.2.2",
+    "puppeteer": "^21.5.2"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/linear-inspired-website.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/linear-inspired-website/issues"
+  },
+  "homepage": "https://github.com/your-username/linear-inspired-website#readme"
+}
